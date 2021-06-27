@@ -1,0 +1,138 @@
+languageCode = "en-us"
+title = "Stephanie Hynes | Redefy"
+theme = "infinity-hugo"
+removePathAccents = true
+
+
+
+# HTML before the closing </head>
+[params]
+customHead = ""
+
+# Navigation
+[params.navigation]
+logo = "images/Redefy.png"
+home = "Home"
+about = "About"
+service = "Save Money"
+contact = "Contact"
+
+# Hero Area
+[params.hero]
+enable            = true
+bg                = "images/family.jpg"
+title             = "Stephanie Hynes | Redefy"
+subtitle          = "Broker | Agent | Advisor"
+btnText           = "Flat Fee $5,500"
+
+# counter
+disableCountdown  = false
+countdownYear = "2021"
+countdownMonth = "12"
+countdownDay  = "31"
+
+# About Section
+[params.about]
+enable      = true
+heading     = "Redefy Real Estate"
+description = "At Redefy, our mission is to bring down the high cost of selling a home and pass those savings back to you. We do that by charging a flat fee of $5,500 to sell your home. That flat fee includes all the services of a traditional agent, starting with an in-home consultation, professional photography, yard signs, lock boxes, scheduling showings, marketing, and advertising. On top of that, your home is listed on the MLS, which pushes your home onto thousands of websites including Zillow, Trulia and Realtor.com. With over 92% of homebuyers searching for homes on the internet, online exposure is critical to attracting buyers. But our services don't stop there. Our team stays with you, helping you understand inspections, contracts, negotiating offers and closing. A traditional listing agent would typically charge you a 3% commission for all those services. On a $400,000 home sale, that adds up to $12,000! At Redefy, we offer the same service for only $5,500. That's $6,500 in savings, keeping your equity where it belongs, in your pocket! At Redefy, we are changing the way homes are sold!"
+
+[[params.about.sliderItem]]
+image   = "images/about/1.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/2.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/3.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/2.jpg"
+
+
+# Service Section
+[params.service]
+enable      = true
+title       = "Why Redefy?"
+subtitle    = "Experience Smarter Real Estate!"
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Proven Experience"
+description = "A dedicated team with extensive knowledge that provides in-home consultation and staging advice"
+delay   = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "Professional Marketing"
+description = "We provide photography, lock box, yard signs, MLS listing, and thorough internet marketing."
+delay   = "0.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Expertise"
+description = "We research and compare past, present, and future market trends to find the best price for your home."
+delay   = "0.4s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-globe"
+title   = "We Got You"
+description = "Redefy handles everything from paperwork, offers, negotiations, and we will provide and manage all contracts and closings."
+delay   = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Change is Constant"
+description = "We are changing an industry that’s been entrenched for over 100 years. We will never utter the words “that’s how it’s always been done.”"
+delay   = "0.8s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "Open Communication"
+description = "We believe in open and honest communication with our customers, as well as with our team members."
+delay   = "1s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Passion"
+description = "We’re not just passionate about what we do, but we’re passionate about the lives and success of our customers."
+delay   = "1.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-globe"
+title   = "Do the Right Thing"
+description = "We believe that you’ll never go wrong by doing the right thing when making decisions based on what’s best for our customers."
+delay   = "1.5s"
+
+
+# Call to Action Section
+[params.cta]
+enable      = true
+bg          = "images/call-to-action.jpg"
+title       = "Subscribe to our mailing list"
+subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+[params.contact]
+enable      = true
+title       = "Get In Touch"
+subtitle    = "Use the form below to send me an email. Phone calls work as well ~ 757-581-5468."
